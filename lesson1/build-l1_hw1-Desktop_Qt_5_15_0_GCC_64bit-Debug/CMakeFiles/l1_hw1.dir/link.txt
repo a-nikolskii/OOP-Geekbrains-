@@ -1,1 +1,0 @@
-/usr/bin/g++  -g   CMakeFiles/l1_hw1.dir/l1_hw1_autogen/mocs_compilation.cpp.o CMakeFiles/l1_hw1.dir/main.cpp.o  -o l1_hw1  -Wl,-rpath,/home/nik/Qt/5.15.0/gcc_64/lib /home/nik/Qt/5.15.0/gcc_64/lib/libQt5Core.so.5.15.0 

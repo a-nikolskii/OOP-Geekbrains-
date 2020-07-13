@@ -1,4 +1,0 @@
-/home/nik/Files/Geekbrains/OOP/homework/lesson1/build-l1_hw3-Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/rebuild_cache.dir
-/home/nik/Files/Geekbrains/OOP/homework/lesson1/build-l1_hw3-Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/edit_cache.dir
-/home/nik/Files/Geekbrains/OOP/homework/lesson1/build-l1_hw3-Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/l1_hw3.dir
-/home/nik/Files/Geekbrains/OOP/homework/lesson1/build-l1_hw3-Desktop_Qt_5_15_0_GCC_64bit-Debug/CMakeFiles/l1_hw3_autogen.dir

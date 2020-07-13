@@ -7,23 +7,27 @@ class Stack {
 public:
     Stack() {
         arr = new int[SIZE];
+        this->reset();
     }
 
     explicit Stack(int a){
         arr = new int[SIZE];
+        this->reset();
         arr[lenght++] = a;
     }
 
     Stack (const Stack & obj) {
         this->arr = new int[SIZE];
+        this->reset();
         for (int i = 0; i < SIZE; ++i) {
             this->arr[i] = obj.arr[i];
         }
+        this->lenght = obj.lenght;
     }
 
     Stack& operator = (const Stack& obj){
         if (& obj == this ) return *this; // проверка на присваивание самому себе
-        delete [] arr; // иначе произойдет утечка памяти, если объект уже существует
+        //delete [] arr; // иначе произойдет утечка памяти, если объект уже существует - нужно, если переменный размер массива
         for (int i = 0; i < SIZE; ++i) {
             this->arr[i] = obj.arr[i];
         }
